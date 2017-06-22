@@ -1,0 +1,153 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#nav-title {
+  padding-left: 10px;
+  color: MediumAquamarine
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  padding-right: 40px;
+  text-decoration: underline;
+}
+
+.content {
+  padding-top: 100px;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.large {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.medium {
+  width: 30%;
+  margin-left: 20px;
+}
+
+.small {
+  width: 20%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.side-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav li {
+  color: DimGray;
+  background-color: WhiteSmoke;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+#small-column-title {
+  text-align: center;
+}
+
+.image-overlay-2 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 25px;
+}
+
+.image-overlay-1 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 25px;
+}
+
+.image-text-overlay-1 {
+  position: absolute;
+  top: 80px;
+  width: 75%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: white;
+  font-size: 36px;
+}
+
+.image-text-overlay-2 {
+  position: absolute;
+  top: 110px;
+  width: 75%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  bottom: 0px;
+  left:0;
+  background-color: MediumAquamarine;
+}
+
+footer #footer-logo {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
